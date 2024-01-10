@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+      stage ("This is jenkins practicals"){
+          steps{
+              echo "Jenkins Test"
+          }
+      }  
+    }
+}
